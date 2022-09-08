@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:1000px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 12px 0;
+
+    }
+
+    .slider img {
+        width: 40vh;
+        height: 60vh;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+footer {
+    background-color: black;
+    height: 12vh;
+    color: beige;
+    font-family: 'Pacifico', cursive;
+}
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: black;
+
+    border: 3px solid green;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.logo img {
+    width: 100px;
+    padding: 0;
+}
+
+nav ul {
+    height: 12vh;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li a {
+    justify-content: center;
+    text-decoration: none;
+    color: azure;
+    font-family: 'Pacifico', cursive;
+    padding: 0 23px;
+}
+
+nav ul li :hover {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: black;
+    padding: 5px 5px;
+    color: white;
+    align-items: center;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+}
+
+.search input {
+    height: 25px;
+    width: 500px;
+    border-radius: 5px;
+
+}
+
+.search {
+    display: flex;
+    align-items: flex-start;
+    width: 600px;
+}
+
+.slider {
+    display: flex;
+    margin: 20px auto;
+    width: 55vw;
+    overflow: hidden;
+}
+
+.slider img {
+    height: 350px;
+    width: 900px;
+    align-items: center;
+
+}
+
+.card {
+    justify-content: center;
+    display: flex;
+}
+
+.card img {
+    height: 30vh;
+    width: 15vw;
+    margin: auto;
+}
+
+.my-1 {
+    margin: 26px 0;
+    ;
+}
+
+.card h3 {
+
+    font-family: 'Pacifico', cursive;
+
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.lines {
+    font-family: 'Pacifico', cursive;
+
+}
+
+.container {
+    min-height: 75vh;
+}
+
+.text-center {
+    align-items: center;
+}
